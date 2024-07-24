@@ -1,6 +1,6 @@
 node {
 
-   def registryProjet='registry.gitlab.com/xavki/presentations-jenkins'
+   def registryProjet='registry.gitlab.com/formation6785325/jenkins'
    def IMAGE="${registryProjet}:version-${env.BUILD_ID}"
    echo "IMAGE = $IMAGE"
     stage('Clone') {
